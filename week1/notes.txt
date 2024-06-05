@@ -1,0 +1,3 @@
+* ask questions when appropriate
+* installing stuff is hard
+* ipython allows for auto complete and fun stuff like that

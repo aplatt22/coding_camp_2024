@@ -1,0 +1,4 @@
+The original maze from where this example was taken can be found at: 
+https://github.com/hisplan/folder-maze
+
+I just added a few extra .txt and zipped everything together
