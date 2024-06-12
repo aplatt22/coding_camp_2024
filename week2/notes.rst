@@ -48,6 +48,82 @@ Example:
     b = a
     a = c
 
+==================================
+Data Types in Python
+==================================
+
+* Integers (int) - 1, 2, 3, 4, etc.
+* Floats (float) - 1.0, 2.0, 3.0, 4.0, etc.
+    * a float times anything will be a float
+* Booleans (bool) - True (1), False (0)
+* Strings (str) - 'Hello', 'World', "a", """ A long \n line """
+    * text files are made of strings
+* Tuples (tuple) - (1,2), ('a','b','c'), (1,(1,2)), etc.
+    * tuples cannot be mutated (changed)
+* Lists (list) - [1,2], ['a','b','c'], [1,(1,2)], etc.
+    * we can change the contents of a list during its lifetime
+* Sets (set) - {1,2}, 
+    * only contain unique elements
+    * simpler version of a dictionary
+* Dictionary (dict) - {1:'a', 2:'b'}, {0:False, 1:True}
+    * one-way translations
+    * {key:value, key:value} - keys must be unique (but values don't have to)
+    * the keys are the only things saved as the dictionary that you can call
+
+.. note::
+
+    ``"\n"`` denotes a new line character.
+
+Operations with Strings
+-----------------------
+
+.. code:: python
+
+    'Hello' + ' ' + 'World'
+    > 'Hello World'
+
+.. note:: 
+
+    You can add strings (it concatenates them)
+    You cannot add numbers to strings.
+    You cannot subtract strings.
+    You can multiply a string by an integer.
+    You cannot divide strings.
+
+.. note::
+
+    Strings can be higher/lower than each other. 
+    They go in order of the alphabet.
+
+.. warning::
+
+    All strings, by default, are set to ``True``.
+    The empty string (``''``) is ``False``.
+
+.. note::
+
+    A backslash (``\``) can be used if you want to 
+    use characters such as quotations within an existing 
+    strings.
+
+.. warning::
+
+    if python is returning nothing, it returns ``None``.
+
+.. note::
+
+    Python indexes starting at 0. You can go backwards 
+    starting at index -1 (this will give you the last
+    variable in your list/string/tuple/etc)
+
+.. tip::
+
+    Try all the commands that are in the slides and 
+    make sure that it makes sense what's happening.
+
+
+
+
 
 
 
