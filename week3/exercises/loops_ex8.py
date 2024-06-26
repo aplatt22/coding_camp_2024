@@ -23,14 +23,15 @@ while number < 100:
     else:
         # print('That number is not prime.')
         trials +=1
-        if number in tested_numbers:
+        tested_numbers.append(number)
+        if number in tested_numbers[:-1]:
             print('You have to be kidding me, you already tried this one! Stop wasting my time.')
             number = int(input("Give me another number you haven't already tried.\n"))
         elif trials in [1, 2]:
-            number = int(input("Prime numbers are hard, try again and you'll get it!.\n"))
+            number = int(input("Prime numbers are hard, try again and you'll get it!\n"))
         elif trials >= 3:
             number = int(input('A monkey could find a prime number sooner, try again dummy.\n'))
-        tested_numbers.append(number)
+        # tested_numbers.append(number)
         
 else:
     print('The number is above 100, run the program again and do better.')
